@@ -1,0 +1,77 @@
+@charset "utf-8";
+/* CSS Document */
+
+html {
+	background-color: #E6B5C4;
+}
+
+.hero-image {
+  background-image: url("Images/HeaderImage.JPG");
+  background-size: cover;
+  height: 600px;
+  position: relative;
+	
+}
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: 'Lora', serif; font-size: 60px; 
+  color: black;
+}
+
+.profile {
+	margin-top: 35px;
+	margin-left: 960px;
+	border-radius: 10px;
+	filter: saturate(1.5);
+}
+
+.drawing {
+	max-width: 100%;
+  	height: auto;
+	position: relative;
+}
+
+.paragraph {
+	
+	text-overflow: inherit;
+	
+}
+
+.link {
+	color: #00961F;
+	
+}
+a:hover {color:#C10DCC;
+text-decoration: none;}
+
+nav ul {
+  list-style-type: none;
+  margin: 30px;
+  padding: 0;
+  overflow: hidden;
+  background-color: #EC98A8;
+}
+
+nav li {
+  float: left;
+	padding-right: 20px;
+	font-family: 'Nunito', sans-serif;
+	font-size: 16px;
+	text-align: center;
+	
+}
+nav li a:link, nav li a:visited {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+nav li a:hover {
+  background-color: #962642;
+  color: white;
+}
